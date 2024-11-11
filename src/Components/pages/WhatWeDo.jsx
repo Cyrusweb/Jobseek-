@@ -1,5 +1,5 @@
 // WhatWeDo.js
-import React from "react";
+
 import ListLeft from "../Json/ListLeft.json";
 
 function WhatWeDo() {
@@ -8,11 +8,11 @@ function WhatWeDo() {
   console.log(middleIndex);
   return (
     <>
-      <main>
-        <article className="w-full p-4">
+      <main className=" w-full overflow-hidden">
+        <article className="w-full p-4 overflow-clip ">
           {/* First Marquee */}
-          <div className="marquee-container mb-4 left">
-            <ul className="marquee flex items-center space-x-4">
+          <div className="marquee-container mb-4 overflow-hidden left">
+            <ul className="marquee flex items-center space-x-4  ">
               {ListLeft.slice(0, middleIndex).map((job) => (
                 <li key={job.id} className="pb-2">
                   <a

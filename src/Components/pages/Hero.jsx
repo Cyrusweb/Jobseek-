@@ -1,4 +1,3 @@
-import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -7,8 +6,8 @@ import banner from "../../assets/banner (1).svg";
 function Hero() {
   return (
     <>
-      <main className="md:mt-[90px] px-4">
-        <article className="md:flex md:mt-[3rem] mt-[3rem] justify-around md:m-[3rem] flex-row-reverse">
+      <main className=" px-4">
+        <article className="md:flex  justify-around md:mx-[3rem] flex-row-reverse">
           <figure>
             <img
               src={banner}
