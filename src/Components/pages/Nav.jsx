@@ -19,7 +19,7 @@ function Nav() {
     setDropdown((prev) => !prev);
   };
   return (
-    <main className="right-0 fixed z-10 px-3 bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F] pt-2 top-0 w-full flex justify-center items-center ">
+    <main className="right-0 fixed z-10  bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F] top-0 w-full flex justify-center items-center ">
       <nav className=" w-full max-w-[1200px]   bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F]  flex justify-between px-4 items-center py-5">
         <figure>
           <NavLink to={"home"}>
