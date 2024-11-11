@@ -52,7 +52,7 @@ function JobList() {
                     />
                     <p>{job.price}</p>
                   </div>
-                  <button className="bg-white text-black w-[78.47px] rounded-full py-1 text-[16px]">
+                  <button className="bg-white text-black w-[78.47px] rounded-full py-1 md:mt-4 text-[16px]">
                     Apply
                   </button>
                 </div>

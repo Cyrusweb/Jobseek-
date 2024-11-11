@@ -7,15 +7,16 @@ import Faq from "./Components/Faq";
 import Jobs from "./Components/Jobs";
 import Company from "./Components/Company";
 import Gigs from "./Components/Gigs";
-
+//;
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
-      { path: "/home", element: <Home /> },
+      { path: "/", element: <Home /> },
       { path: "/company", element: <Company /> },
+      { path: "/contact", element: <Contact /> },
       { path: "/jobs", element: <Jobs /> },
       { path: "/gigs", element: <Gigs /> },
       { path: "/faq", element: <Faq /> },

@@ -35,11 +35,11 @@ function Nav() {
           <div
             className={`md:flex  ${
               toggle ? "block bmd" : "hidden"
-            } md:relative md:top-0 absolute left-0 top-0  px-4   bg-[#0d0e11]   z-0     right-0    top- md:bg-transparent  text-white md:font-light    font-inter`}
+            } md:relative md:top-0 absolute left-0 top-0  px-4 md:mt-0 mt-[4rem] bg-[#0d0e11]   z-0     right-0    top- md:bg-transparent  text-white md:font-light    font-inter`}
           >
             <ul className="md:flex md:space-x-[25px]  md:text-white  text-[18px]  md:text-[18px]  m-auto justify-center  md:space-y-0 space-y-[15px]">
-              <li className=" md:mt-0 md:hidden  ">
-                <div className="flex items-center justify-between">
+              {/* <li className=" md:mt-0 md:hidden  "> */}
+              {/* <div className="flex items-center justify-between">
                   <figure>
                     <NavLink to={"home"}>
                       <img
@@ -54,8 +54,8 @@ function Nav() {
                     className="text-white font-bold"
                     onClick={handle}
                   />
-                </div>
-              </li>
+                </div> */}
+              {/* </li> */}
               <li
                 onClick={handle}
                 className=" md:mt-0  cursor-pointer md:pl-2 md:pt-2  px-2 md:px-0  "
@@ -116,7 +116,11 @@ function Nav() {
           </div>
         </div>
         <div className="md:hidden" onClick={handle}>
-          {<CiMenuFries size={25} className="text-white font-bold" />}
+          {toggle ? (
+            <IoMdClose size={25} className="text-white font-bold" />
+          ) : (
+            <CiMenuFries size={25} className="text-white font-bold" />
+          )}
         </div>
         <div className="md:flex items-center gap-4 hidden">
           <div>
