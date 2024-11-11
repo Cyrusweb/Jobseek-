@@ -56,13 +56,22 @@ function Nav() {
                   />
                 </div>
               </li>
-              <li className=" md:mt-0  cursor-pointer md:pl-2 md:pt-2  px-2 md:px-0  ">
+              <li
+                onClick={handle}
+                className=" md:mt-0  cursor-pointer md:pl-2 md:pt-2  px-2 md:px-0  "
+              >
                 <NavLink to={"jobs"}>Jobs</NavLink>
               </li>
-              <li className=" md:mt-0  cursor-pointer    md:pl-2 md:pt-2  px-2 md:px-0  ">
+              <li
+                onClick={handle}
+                className=" md:mt-0  cursor-pointer    md:pl-2 md:pt-2  px-2 md:px-0  "
+              >
                 <NavLink to={"gigs"}>Gigs</NavLink>
               </li>
-              <li className="  md:mt-0  cursor-pointer  md:pl-2 md:pt-2 px-2 md:px-0   ">
+              <li
+                onClick={handle}
+                className="  md:mt-0  cursor-pointer  md:pl-2 md:pt-2 px-2 md:px-0   "
+              >
                 <NavLink to={"company"}>Company</NavLink>
               </li>
               <li className=" md:mt-0   cursor-pointer   md:pl-2 md:pt-2  px-2 md:px-0  ">
@@ -85,13 +94,16 @@ function Nav() {
               {dropdown && (
                 <div className="pl-7 md:pl-0 md:absolute md:pt-2 top-12 right-[1.2rem] rounded-lg md:bg-[#17191F] ">
                   <ul className="mt-[-10px]   ">
-                    <li className="text-[#A34AE3] cursor-pointer">
+                    <li
+                      onClick={handle}
+                      className="text-[#A34AE3] cursor-pointer"
+                    >
                       <NavLink to={"about"}>About Us</NavLink>
                     </li>
-                    <li className="cursor-pointer">
+                    <li onClick={handle} className="cursor-pointer">
                       <NavLink to={"faq"}>FAQ</NavLink>
                     </li>
-                    <li className="cursor-pointer ">
+                    <li onClick={handle} className="cursor-pointer ">
                       <NavLink to={"contact"}>Contact Us</NavLink>
                     </li>
                   </ul>
