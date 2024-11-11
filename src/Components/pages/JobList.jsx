@@ -1,4 +1,3 @@
-// JobList.js
 import React from "react";
 import location from "../../assets/location.svg";
 import price from "../../assets/price.svg";

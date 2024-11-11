@@ -16,7 +16,7 @@ const IntroductionCard = ({ content }) => {
         }   `}
       >
         {" "}
-        {content.heading}{" "}
+        {content.heading}
       </h1>
       <p className="text-sm text-center">{content.subText}</p>
     </div>

@@ -6,11 +6,9 @@ import HowThose from "./pages/HowThose";
 import DisCover from "./pages/DisCover";
 import JobOpening from "./pages/JobOpening";
 import FooterHero from "./pages/FooterHero";
-
-// Footer
 function Home() {
   return (
-    <div className="flex flex-col w-full overflow-x-hidden items-center ">
+    <>
       <Hero />
       <WhatWeDo />
       <div>
@@ -27,7 +25,7 @@ function Home() {
           <FooterHero />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

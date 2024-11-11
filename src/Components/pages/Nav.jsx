@@ -19,14 +19,16 @@ function Nav() {
     setDropdown((prev) => !prev);
   };
   return (
-    <main className="right-0 fixed z-10 px-3 bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F] pt-2 top-0 w-full flex justify-center items-center shadow-lg ">
-      <nav className=" w-full max-w-[1200px] drop-shadow-sm  bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F]  flex justify-between px-4 items-center py-5">
+    <main className="right-0 fixed z-10 px-3 bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F] pt-2 top-0 w-full flex justify-center items-center ">
+      <nav className=" w-full max-w-[1200px]   bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F]  flex justify-between px-4 items-center py-5">
         <figure>
-          <img
-            src={logo}
-            alt="logo"
-            className="md:w-[189.19px] object-contain"
-          />
+          <NavLink to={"home"}>
+            <img
+              src={logo}
+              alt="logo"
+              className="md:w-[189.19px] object-contain"
+            />
+          </NavLink>
         </figure>
 
         <div className="">
@@ -39,11 +41,13 @@ function Nav() {
               <li className=" md:mt-0 md:hidden  ">
                 <div className="flex items-center justify-between">
                   <figure>
-                    <img
-                      src={logo}
-                      alt="logo"
-                      className="w-[160px] h-[30px] object-contain"
-                    />
+                    <NavLink to={"home"}>
+                      <img
+                        src={logo}
+                        alt="logo"
+                        className="w-[160px] h-[30px] object-contain"
+                      />
+                    </NavLink>
                   </figure>
                   <IoMdClose
                     size={25}
