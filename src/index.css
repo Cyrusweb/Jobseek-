@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+
+  font-style: normal;
+  background-color: #0d0e11;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.vl {
+  position: relative;
+  padding: 2px;
+  background: linear-gradient(180deg, #6857f6, #a549e2);
+  border-radius: 60px;
+}
+.vl_me {
+  margin: 0 auto;
+  background: linear-gradient(180deg, #6857f6, #a549e2);
+  border-radius: 60px;
+  width: 90%;
+}
+
+.vl > .inner {
+  display: block;
+  padding: 8px 16px;
+  background-color: #1a1a1a;
+  border-radius: 60px;
+  text-align: center;
+  color: white;
+}
+
+/* animation one */
+.marquee-container ul li:nth-child(2n + 1) {
+  background: #1b1a2e;
+  border-radius: 8px;
+  border: 1px solid #4a3a7680;
+  padding: 0px 10px;
+}
+.bmd {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.cool {
+  background: #1b1a2e;
+
+  border: 1px solid #4a3a7680;
+}
+.marquee-container,
+.marquee-container_2 ul li {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee {
+  display: inline-flex;
+  animation: scroll 150s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+.explore {
+  color: #a34ae3;
+}
+
+.marquee-container_2 ul li:nth-child(2n + 1) {
+  background: #1b1a2e;
+  border-radius: 8px;
+  border: 1px solid #4a3a7680;
+  padding: 0px 10px;
+}
+
+.marquee-container_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee_2 {
+  display: inline-flex;
+  animation: scroll 150s linear infinite;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #17191f;
+  }
+  .cool {
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    /* padding: 0px 20px; */
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  margin-top: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #17191f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #17191f;
+  border-radius: 50px;
+  border: 2px solid transparent;
+}
+
+.btn {
+  background: linear-gradient(180deg, #6857f6, #a549e2);
+}
+
+.text_1 {
+  color: linear-gradient(180deg, #6857f6, #a549e2);
+}
