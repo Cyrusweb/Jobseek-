@@ -161,6 +161,19 @@ html {
   padding: 1px;
 }
 
+.offeringCardBG2 {
+  background-image: linear-gradient(180deg, #6757f64c 0%, #a549e282 100%);
+  padding: 1px;
+}
+
 .hideScrollBar::-webkit-scrollbar {
   display: none;
+}
+
+.startJourneyCard {
+  background: linear-gradient(
+    180deg,
+    rgba(104, 87, 246, 0.3) 0%,
+    rgba(165, 73, 226, 0.3) 100%
+  );
 }

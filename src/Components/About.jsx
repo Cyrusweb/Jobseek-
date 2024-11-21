@@ -1,6 +1,8 @@
 import Introduction from "./About/Introduction";
 import MeetTeam from "./About/MeetTeam";
+import Review from "./About/Review";
 import Security from "./About/Security";
+import StartJourney from "./About/StartJourney";
 import UniqueOffering from "./About/UniqueOffering";
 import WhoWeAre from "./About/WhoWeAre";
 
@@ -13,6 +15,8 @@ const About = () => {
         <UniqueOffering />
         <MeetTeam />
         <Security />
+        <Review />
+        <StartJourney />
       </div>
     </div>
   );
