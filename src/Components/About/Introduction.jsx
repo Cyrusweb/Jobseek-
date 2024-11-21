@@ -36,7 +36,7 @@ const Introduction = () => {
         Brief introduction to <span className="textGradient">Job Seek</span>{" "}
       </h2>
       <div className="flex justify-center w-full items-center">
-        <p className="max-w-[730px] w-full text-base ">
+        <p className="max-w-[730px] text-center w-full text-base ">
           Job Seek is an innovative freelance platform that connects clients and
           freelancers through the power of cryptocurrency. Designed for a
           digital-first world, Job Seek provides secure, fast, and borderless

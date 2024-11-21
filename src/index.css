@@ -111,7 +111,7 @@ html {
 
 @media (min-width: 768px) {
   body {
-    background-color: #17191f;
+    background-color: #0d0e11;
   }
   .cool {
     background: transparent;
@@ -154,4 +154,13 @@ html {
 
 .cardBlur {
   backdrop-filter: blur(15px);
+}
+
+.offeringCardBG {
+  background-image: linear-gradient(180deg, #6857f6 0%, #a549e2 100%);
+  padding: 1px;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
 }
