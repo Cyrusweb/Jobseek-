@@ -3,7 +3,7 @@ const StartJourney = () => {
     <div className="max-w-[1200px] mb-[150px] w-full flex justify-center items-center ">
       <div className="startJourneyCard max-w-[1000px] w-full rounded-2xl px-3 py-9 flex justify-center items-center ">
         <div className="max-w-[700px] text-center w-full text-white flex flex-col items-center gap-9 ">
-          <h1 className="text-5xl font-medium ">
+          <h1 className="md:text-5xl text-[24px] font-medium ">
             Start Your Freelancing Journey with Job Seek
           </h1>
           <p>

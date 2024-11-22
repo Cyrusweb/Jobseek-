@@ -40,14 +40,14 @@ const teamMembers = [
 ];
 const MeetTeam = () => {
   return (
-    <div className=" flex mt-[70px] overflow-hidden w-full items-center justify-center flex-col gap-7">
-      <div className="max-w-[1200px] w-full flex items-center justify-center flex-col gap-7 text-white ">
+    <div className=" flex mt-[20px] md:mt-[70px] overflow-hidden w-full items-center justify-center flex-col gap-7">
+      <div className="max-w-[1200px] w-full flex items-center justify-center flex-col gap-4 md:gap-7 text-white ">
         <div className="flex gap-2 items-center justify-center ">
           <div className="w-3 btn h-3 rounded-full "></div>
           <h1 className="textGradient text-center ">Our Team</h1>
         </div>
 
-        <h2 className="text-[30px] text-center capitalize font-medium">
+        <h2 className="text-[30px] mt-4 md:mt-0 text-center capitalize font-medium">
           meet the team
         </h2>
         <div className="flex justify-center w-full items-center">

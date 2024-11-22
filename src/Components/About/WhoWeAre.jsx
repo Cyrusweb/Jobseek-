@@ -1,16 +1,16 @@
 const WhoWeAre = () => {
   return (
     <div className="border-b max-w-[1200px] border-white border-solid py-5 pb-16 w-full">
-      <h1 className="textGradient"> Vacancies</h1>
-      <div className="flex mt-14 justify-between gap-6 items-center">
-        <div className="w-1/2 flex item-center ">
-          <h1 className="text-left text-6xl font-medium text-white  ">
+      <h1 className="textGradient hidden lg:flex"> Vacancies</h1>
+      <div className="flex flex-col lg:flex-row lg:mt-14 justify-between gap-6 items-center">
+        <div className="lg:w-1/2 w-full  flex item-center ">
+          <h1 className="lg:text-left text-center text-4xl md:text-6xl w-full font-medium text-white  ">
             Who We Are
           </h1>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-full">
           {" "}
-          <p className="text-lg text-white leading-7 ">
+          <p className="md:text-lg  w-full text-center text-white leading-7 ">
             We are an innovative online marketplace web application designed to
             facilitate secure and transparent transactions between individuals
             seeking services and those offering them. Our platform aims to

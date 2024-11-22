@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const TeamMemberCard = ({ member }) => {
   return (
-    <div className="h-[500px] min-w-[390px] relative cursor-pointer bg-[#0d0e11] rounded-xl hover:-translate-y-14 hover:scale-110 transition-all duration-300  rounded-bl-[70px] ">
+    <div className="h-[500px] min-w-[300px] md:min-w-[390px] relative cursor-pointer bg-[#0d0e11] rounded-xl hover:-translate-y-14 hover:scale-110 transition-all duration-300  rounded-bl-[70px] ">
       <img
         className="w-full rounded-xl rounded-bl-[70px] object-fill h-full"
         src={`../../src/assets/${member.img}.jpg`}

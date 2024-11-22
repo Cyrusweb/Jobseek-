@@ -41,8 +41,8 @@ const reviews = [
 
 const Review = () => {
   return (
-    <div className="flex flex-row w-full pt-[100px] pl-[530px] bg-[#0d0e11] relative items-start gap-3 h-full py-10 hideScrollBar ">
-      <div className="bg-[#0d0e11] absolute left-[100px] max-w-[400px] w-full h-full flex flex-col items-start gap-3 px-2 py-3 text-white ">
+    <div className="flex flex-col lg:flex-row w-full pt-[100px] lg:pl-[530px] bg-[#0d0e11] gap-y-5 relative items-start gap-3 h-full py-10 hideScrollBar ">
+      <div className="bg-[#0d0e11] lg:absolute left-[100px] lg:max-w-[400px] w-full lg:h-full flex flex-col items-start gap-3 px-2 py-3 text-white ">
         <div>
           <h1 className="text-[40px] leading-[44px] ">
             Our happy users say about us
@@ -57,7 +57,7 @@ const Review = () => {
           and provide the best possible job search experience for every user.
         </div>
       </div>
-      <div className="w-full gap-10 flex-row overflow-x-auto flex px-3 py-2  hideScrollBar ">
+      <div className="w-full gap-10 flex-row overflow-x-auto flex px-3 py-2 pb-5   ">
         {reviews.map((member, index) => (
           <ReviewCard key={index} member={member} />
         ))}

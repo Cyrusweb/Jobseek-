@@ -26,13 +26,13 @@ const IntroductionCardContent = [
 
 const Introduction = () => {
   return (
-    <div className="max-w-[1200px] w-full flex items-center justify-center flex-col gap-7 text-white ">
+    <div className="max-w-[1200px] w-full flex items-center justify-center flex-col md:gap-7 gap-4 text-white ">
       <div className="flex gap-2 items-center justify-center ">
         <div className="w-3 btn h-3 rounded-full "></div>
         <h1 className="textGradient text-center ">Who we are</h1>
       </div>
 
-      <h2 className="text-[30px] text-center  font-medium">
+      <h2 className="md:text-[30px] text-[24px] text-center  font-medium">
         Brief introduction to <span className="textGradient">Job Seek</span>{" "}
       </h2>
       <div className="flex justify-center w-full items-center">
@@ -45,7 +45,7 @@ const Introduction = () => {
         </p>
       </div>
 
-      <div className="flex mt-[100px] items-start justify-center gap-7 ">
+      <div className="flex mt-[100px] items-start w-full flex-wrap justify-center gap-y-16  gap-x-7 ">
         {IntroductionCardContent.map((content, index) => (
           <IntroductionCard key={index} content={content} />
         ))}
