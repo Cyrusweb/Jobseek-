@@ -10,7 +10,7 @@ const WhoWeAre = () => {
         </div>
         <div className="lg:w-1/2 w-full">
           {" "}
-          <p className="md:text-lg  w-full text-center text-white leading-7 ">
+          <p className="md:text-lg  text-[15px] text-center text-white leading-[22px] ">
             We are an innovative online marketplace web application designed to
             facilitate secure and transparent transactions between individuals
             seeking services and those offering them. Our platform aims to

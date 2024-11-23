@@ -26,7 +26,7 @@ const IntroductionCardContent = [
 
 const Introduction = () => {
   return (
-    <div className="max-w-[1200px] w-full flex items-center justify-center flex-col md:gap-7 gap-4 text-white ">
+    <div className="max-w-[1200px] w-full flex items-center justify-center mt-[-4rem] flex-col md:gap-7 gap-4 text-white ">
       <div className="flex gap-2 items-center justify-center ">
         <div className="w-3 btn h-3 rounded-full "></div>
         <h1 className="textGradient text-center ">Who we are</h1>
@@ -36,7 +36,7 @@ const Introduction = () => {
         Brief introduction to <span className="textGradient">Job Seek</span>{" "}
       </h2>
       <div className="flex justify-center w-full items-center">
-        <p className="max-w-[730px] text-center w-full text-base ">
+        <p className="max-w-[730px] text-center text-[15px] w-full  ">
           Job Seek is an innovative freelance platform that connects clients and
           freelancers through the power of cryptocurrency. Designed for a
           digital-first world, Job Seek provides secure, fast, and borderless

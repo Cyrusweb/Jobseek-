@@ -23,9 +23,9 @@ function Nav() {
     <main className="right-0 fixed z-10  bg-[#0d0e11] backdrop-blur-sm left-0 top-0 w-full flex justify-center items-center">
       <nav className="w-full max-w-[1200px] bg-[#0d0e11] flex justify-between px-4 items-center py-5">
         <figure>
-          <NavLink to={"home"}>
+          <NavLink onClick={handle} to={"home"}>
             <img
-              src="/assets/Link.svg" // Use a direct path to the public folder
+              src="/assets/Link.svg"
               alt="logo"
               className="md:w-[189.19px] object-contain"
             />

@@ -23,7 +23,7 @@ const UniqueOffering = () => {
   ];
 
   return (
-    <div className="max-w-[1200px] md:mt-[70px] w-full flex items-center justify-center flex-col gap-7 text-white ">
+    <div className="max-w-[1200px] md:mt-[70px] w-full mt-[-3rem] flex items-center justify-center flex-col gap-7 text-white ">
       <div className="flex gap-2 items-center justify-center ">
         <div className="w-3 btn h-3 rounded-full "></div>
         <h1 className="textGradient text-center ">Unique Offering</h1>
@@ -33,7 +33,7 @@ const UniqueOffering = () => {
         Why Choose Job Seek?
       </h2>
       <div className="flex justify-center w-full items-center">
-        <p className="max-w-[730px] w-full text-center text-base ">
+        <p className="max-w-[730px] text-[15px] w-full text-center text-base ">
           Job Seek is an innovative freelance platform that connects clients and
           freelancers through the power of cryptocurrency. Designed for a
           digital-first world, Job Seek provides secure, fast, and borderless
