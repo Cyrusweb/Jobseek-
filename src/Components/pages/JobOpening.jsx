@@ -1,6 +1,4 @@
 import React from "react";
-import up from "../../assets/upload.svg";
-import pro_2 from "../../assets/pro_2.svg";
 function JobOpening() {
   return (
     <>
@@ -13,7 +11,7 @@ function JobOpening() {
               <div className="flex  items-center gap-2">
                 <figure>
                   <img
-                    src={pro_2}
+                    src={`/assets/pro_2.svg`}
                     alt="profile"
                     className=" border-[1px] border-[#322E4C] p-2 rounded-lg"
                   />
@@ -23,7 +21,7 @@ function JobOpening() {
               <div>
                 <button className="bg-white text-black flex gap-2 items-center px-2  rounded-full py-1 text-[16px]">
                   <figure>
-                    <img src={up} alt="up" />
+                    <img src={`/assets/upload.svg`} alt="up" />
                   </figure>
                   <div className="flex gap-1">
                     <p className="text-[10px]"> upload </p>

@@ -49,7 +49,7 @@ const Review = () => {
           </h1>
         </div>
         <div>
-          <img src="../../src/assets/googleReview.png" alt="" />
+          <img src="/assets/googleReview.png" alt="" />
         </div>
         <div>
           We are grateful to our users for their kind words and testimonials.

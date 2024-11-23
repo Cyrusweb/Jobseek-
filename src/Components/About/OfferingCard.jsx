@@ -6,7 +6,7 @@ const OfferingCard = ({ content }) => {
       <div className="flex bg-[#0d0e11] gap-5 flex-col items-center justify-center rounded-md px-6 py-10 h-[350px]">
         <img
           className="w-12"
-          src={`../../src/assets/${content.img}.svg`}
+          src={`/assets/${content.img}.svg`}
           alt={content.img}
         />
         <h1 className="text-xl font-bold">{content.heading}</h1>

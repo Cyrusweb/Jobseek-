@@ -1,7 +1,7 @@
 import React from "react";
-import location from "../../assets/location.svg";
-import price from "../../assets/price.svg";
-import remote from "../../assets/remote.svg";
+// import location from "../../assets/location.svg";
+// import price from "../../assets/price.svg";
+// import remote from "../../assets/remote.svg";
 import ListLeft from ".././Json/ListLeft.json";
 
 function JobList() {
@@ -27,7 +27,7 @@ function JobList() {
                   <div className="md:flex gap-4 mt-2 items-center">
                     <div className="flex items-center gap-2">
                       <img
-                        src={location}
+                        src={`/assets/location.svg`}
                         alt="logo_location"
                         className="w-[16px] h-[16px]"
                       />
@@ -35,7 +35,7 @@ function JobList() {
                     </div>
                     <div className="flex items-center gap-2">
                       <img
-                        src={remote}
+                        src={`/assets/remote.svg`}
                         alt="logo_remote"
                         className="w-[16px] h-[16px]"
                       />
@@ -46,7 +46,7 @@ function JobList() {
                 <div className="price flex md:block items-center justify-between">
                   <div className="flex items-center gap-2">
                     <img
-                      src={price}
+                      src={`/assets/price.svg`}
                       alt="logo_price"
                       className="w-[16px] h-[16px]"
                     />

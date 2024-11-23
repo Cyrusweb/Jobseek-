@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import insta from "../../assets/Symbol_inta.svg";
-import facebook from "../../assets/Symbol_face.svg";
-import linkdine from "../../assets/Symbol_in.svg";
-import youtube from "../../assets/Symbol_you.svg";
-import location from "../../assets/location.svg";
-import logo from "../../assets/Link.svg";
+
 import { validate } from "../validation/WaitList";
 
 function Footer() {
@@ -108,24 +103,28 @@ function Footer() {
         <article className="md:grid grid-cols-2 justify-between mt-16">
           <div className="md:justify-start justify-center flex mb-4">
             <figure>
-              <img src={logo} alt="logo" className="object-cover" />
+              <img
+                src={`/assets/Link.svg`}
+                alt="logo"
+                className="object-cover"
+              />
             </figure>
           </div>
           <div className="flex gap-12 justify-center">
             <figure>
-              <img src={facebook} alt="facebook_icon" />
+              <img src={`/assets/Symbol_face.svg`} alt="facebook_icon" />
             </figure>
             <figure>
-              <img src={youtube} alt="youtube_icon" />
+              <img src={`/assets/Symbol_you.svg`} alt="youtube_icon" />
             </figure>
             <figure>
-              <img src={location} alt="location_icon" />
+              <img src={`/assets/location.svg`} alt="location_icon" />
             </figure>
             <figure>
-              <img src={insta} alt="insta_icon" />
+              <img src={`/assets/Symbol_inta.svg`} alt="insta_icon" />
             </figure>
             <figure>
-              <img src={linkdine} alt="linkdine_icon" />
+              <img src={`/assets/Symbol_in.svg`} alt="linkdine_icon" />
             </figure>
           </div>
         </article>

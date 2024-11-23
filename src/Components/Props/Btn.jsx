@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 function Btn(props) {
   const { className } = props;
   return (
@@ -12,5 +12,9 @@ function Btn(props) {
     </>
   );
 }
+
+Btn.propTypes = {
+  className: PropTypes.string,
+};
 
 export default Btn;

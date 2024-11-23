@@ -1,10 +1,10 @@
 import React from "react";
-import one from "../../assets/one.svg";
-import two from "../../assets/two.svg";
-import three from "../../assets/three.svg";
-import location from "../../assets/location.svg";
-import price from "../../assets/price.svg";
-import remote from "../../assets/remote.svg";
+// import one from "../../assets/one.svg";
+// import two from "../../assets/two.svg";
+// import three from "../../assets/three.svg";
+// import location from "../../assets/location.svg";
+// import price from "../../assets/price.svg";
+// import remote from "../../assets/remote.svg";
 import { motion } from "framer-motion";
 
 function DisCover() {
@@ -13,7 +13,7 @@ function DisCover() {
     {
       id: 1,
       title: "Operating Management",
-      icon: one,
+      icon: "/assets/one.svg",
       description:
         "You will be responsible for overseeing and optimizing various operational processes to enhance productivity, efficiency, and profitability.",
       location: "Nigeria",
@@ -24,7 +24,7 @@ function DisCover() {
     {
       id: 2,
       title: "Senior Accountant",
-      icon: two,
+      icon: "/assets/two.svg",
       description:
         "You will handle various financial tasks and play a key role in financial reporting, analysis, and decision-making processes.",
       location: "Paris",
@@ -35,7 +35,7 @@ function DisCover() {
     {
       id: 3,
       title: "Motion Designer",
-      icon: three,
+      icon: "/assets/three.svg",
       description:
         "You will handle various financial tasks and play a key role in financial reporting, analysis, and decision-making processes.",
       location: "Lagos",
@@ -46,7 +46,7 @@ function DisCover() {
     {
       id: 4,
       title: "Middle Engineer",
-      icon: one,
+      icon: "/assets/one.svg",
       description:
         "You will be responsible for overseeing and optimizing various operational processes to enhance productivity, efficiency, and profitability.",
       location: "London",
@@ -118,19 +118,19 @@ function DisCover() {
                   <footer className="flex gap-6 items-center mt-8 text-white">
                     <div className="flex items-center gap-2">
                       <figure>
-                        <img src={location} alt="Location" />
+                        <img src={`/assets/location.svg`} alt="Location" />
                       </figure>
                       <p>{job.location}</p>
                     </div>
                     <div className="flex items-center gap-2">
                       <figure>
-                        <img src={remote} alt="Remote" />
+                        <img src={`/assets/remote.svg`} alt="Remote" />
                       </figure>
                       <p>{job.type}</p>
                     </div>
                     <div className="flex items-center gap-2">
                       <figure>
-                        <img src={price} alt="Salary" />
+                        <img src={`/assets/price.svg`} alt="Salary" />
                       </figure>
                       <p>{job.salary}</p>
                     </div>

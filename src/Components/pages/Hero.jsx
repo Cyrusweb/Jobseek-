@@ -1,7 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
-import banner from "../../assets/banner (1).svg";
 
 function Hero() {
   return (
@@ -10,7 +9,7 @@ function Hero() {
         <article className="md:flex  justify-around md:mx-[3rem] flex-row-reverse">
           <figure>
             <img
-              src={banner}
+              src={`/assets/banner (1).svg`}
               alt="banner"
               className="w-[330px] mt-[14px] md:w-[569.89px] px-[30px] pt-[-6px]"
             />
