@@ -2,9 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
-        
-    </div>
+    <div className='text-white'>this is the hero page</div>
   )
 }
 
