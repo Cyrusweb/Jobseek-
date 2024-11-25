@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from '../Components/page_two/Hero'
+import Hero from './page_two/PageTwoHero'
 
 function Jobs() {
   return <div >
