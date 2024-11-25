@@ -82,6 +82,15 @@ html {
   color: #a34ae3;
 }
 
+.heroViewStyle{
+  background-color: #4A3A7680 ;
+  border: #4A3A7680 1px solid ;
+}
+.heroBorder{
+  border: #4A3A7680 1px solid ;
+
+}
+
 .marquee-container_2 ul li:nth-child(2n + 1) {
   background: #1b1a2e;
   border-radius: 8px;
@@ -177,3 +186,5 @@ html {
     rgba(165, 73, 226, 0.3) 100%
   );
 }
+
+
