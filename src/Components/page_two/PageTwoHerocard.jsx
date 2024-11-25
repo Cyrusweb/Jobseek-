@@ -1,14 +1,14 @@
 import React from 'react'
 
 const PageTwoHerocard = () => {
-    const jobs = [
+    const descriptions= [
         {
           id: 1,
           title: "Web Developer",
           icon: "/assets/one.svg",
           description:
             "Collabrate with designers to translate visual designs into functional web pages.",
-          location: "Nigeria",
+          location: "Paris",
           type: "Remote",
           cartigory: "Colored",
         },
@@ -50,7 +50,7 @@ const PageTwoHerocard = () => {
             icon: "/assets/one.svg",
             description:
               "Develop and implement social media strategies to increase brand awareness and engagement.",
-            location: "Los Angelas",
+            location: "California",
             type: "Remote",
            
             cartigory: "lineo ",
@@ -66,12 +66,99 @@ const PageTwoHerocard = () => {
             cartigory: "Pipe",
           },
       ];
+
     
 
+      
+      return (
+        <div>
+
+          <div className='grid md:grid-cols-3 gap-6  '>
+            { descriptions.map(description =>
+
+            <div key={description.id} className='border border-[#4A3A7680] m-3  rounded-lg text-[#848484] '>
+              <div>
 
 
-  return (
-    <div>
+                <div className='grid md:grid-cols-[80px_1fr] p-3 '>
+                    <figure className=''>
+                      <img src={description.icon} alt="description " />
+                    </figure>
+
+                      <div className='grid items-center m-3'>
+                        <p className='text-lg text-white'>{description.title}</p>
+                        <p>{description.cartigory}</p>
+                      </div>
+                </div>
+                
+
+               <div className=' grid justify-center p-6'>
+
+                <div className='h-20 text-base'>
+                  <p>{description.description}</p>
+                
+                </div>
+
+                <hr />
+
+               </div>
+
+             
+
+
+
+                <div className='grid grid-cols-[130px_1fr] justify-start mx-4'>
+                <div className="flex items-center gap-2">
+                      <figure>
+                        <img src={`/assets/location.svg`} alt="Location" />
+                      </figure>
+                      <p>{description.location}</p>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <figure>
+                        <img src={`/assets/remote.svg`} alt="Remote" />
+                      </figure>
+                      <p>{description.type}</p>
+                    </div>
+
+
+                </div>
+
+                <div className='p-4'>
+                    <button className="bg-white text-black w-[78.47px] rounded-full py-1 text-[16px]">
+                      Apply
+                    </button>
+
+                </div>
+              </div>
+
+             
+
+
+
+
+
+            </div>
+              
+            
+              
+              
+              
+              
+              )}
+
+
+
+
+          </div>
+
+     
+        
+    
+        
+
+      
+
     
 
        

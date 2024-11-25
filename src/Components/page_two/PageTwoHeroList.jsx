@@ -5,8 +5,8 @@ const HeroList = () => {
     <div>
 
         
-      <div className='grid grid-cols-8 gap-2 text-center text-lg '>
-        <p className='heroViewStyle rounded-lg p-4 '>View all </p>
+      <div className='grid grid-cols-2 md:grid-cols-8 gap-2 text-center text-lg p-10 '>
+        <p className='heroViewStyle rounded-lg md:p-4 '>View all </p>
         <p className='heroBorder rounded-lg p-4'>Digital </p>
         <p className='heroBorder rounded-lg p-4'> Engineering </p>
         <p className='heroBorder rounded-lg  p-4'>Management</p>
