@@ -94,7 +94,7 @@ const PageTwoHerocard = () => {
 
              
 
-                <div className=' h-20 mx-4 md:mx-0  m-3 border-b border-[#FFFFFF1A] md:border-[#848484] text-base'>
+                <div className=' h-20 mx-4 md:mx-4  m-3 border-b border-[#FFFFFF1A] md:border-[#848484] text-base'>
                   <p>{description.description}</p>
                 
              
