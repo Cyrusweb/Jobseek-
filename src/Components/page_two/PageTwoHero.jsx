@@ -4,6 +4,7 @@ import PageTwoHerocard from './PageTwoHerocard'
 import PageTwoHeroSection from './PageTwoHeroSection'
 import PageTwoHeroTopic from './PageTwoHeroTopic'
 import PgaeTwoHeroHeader from './PgaeTwoHeroHeader'
+import PageTwoHeroFooter from './PageTwoHeroFooter'
 
 const Hero = () => {
   return (
@@ -12,7 +13,10 @@ const Hero = () => {
          <PgaeTwoHeroHeader/>
         <div className='h-[489.19px]'>
         <PageTwoHeroTopic/>
-         <hr />
+        
+     
+
+   
         </div>
        <div>
       <div className='grid justify-center text-center'>
@@ -21,54 +25,9 @@ const Hero = () => {
       </div>
       <HeroList/>
       <PageTwoHerocard/>
-
-
-
-    
-
-
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      </div>
-    
-
-
-
-      
-      
-      
-      
-      
-      
-      
-       </div>
-
-      
-      
+      <PageTwoHeroFooter/>   
+      </div>    
+       </div> 
     </div>
   )
 }

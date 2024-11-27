@@ -10,7 +10,7 @@ const PageTwoHerocard = () => {
             "Collabrate with designers to translate visual designs into functional web pages.",
           location: "Paris",
           type: "Remote",
-          cartigory: "Colored",
+          cartegory: "Colored",
         },
         {
           id: 2,
@@ -20,7 +20,7 @@ const PageTwoHerocard = () => {
             "Collabrate with cross-functional teams to gather requirements.",
           location: "New York",
           type: "Remote",
-          cartigory: "Fintechy",
+          cartegory: "Fintechy",
         },
         {
           id: 3,
@@ -31,7 +31,7 @@ const PageTwoHerocard = () => {
           location: "Las Vegas ",
           type: "Remote",
          
-          cartigory: "Gradient",
+          cartegory: "Gradient",
         },
         {
             id: 4,
@@ -42,7 +42,7 @@ const PageTwoHerocard = () => {
             location: "Los Angelas",
             type: "Remote",
            
-            cartigory: "Greenly ",
+            cartegory: "Greenly ",
           },
           {
             id: 5,
@@ -53,7 +53,7 @@ const PageTwoHerocard = () => {
             location: "California",
             type: "Remote",
            
-            cartigory: "lineo ",
+            cartegory: "lineo ",
           },   {
             id: 6,
             title: "Marketing Coordinator ",
@@ -63,7 +63,7 @@ const PageTwoHerocard = () => {
             location: "London",
             type: "Remote",
            
-            cartigory: "Pipe",
+            cartegory: "Pipe",
           },
       ];
 
@@ -73,33 +73,32 @@ const PageTwoHerocard = () => {
       return (
         <div>
 
-          <div className='grid md:grid-cols-3 gap-6  '>
+          <div className='grid md:grid-cols-3 justify-center '>
             { descriptions.map(description =>
 
-            <div key={description.id} className='border border-[#4A3A7680] m-3  rounded-lg text-[#848484] '>
-              <div>
+            <div key={description.id} className='border border-[#4A3A7680] mb-6  rounded-lg text-[#848484] w-[362.69px] md:w-[420px] '>
+              <div className='md:m-2'>
 
 
                 <div className='grid md:grid-cols-[80px_1fr] p-3 '>
-                    <figure className=''>
+                    <figure className='mx-2 md:mx-0'>
                       <img src={description.icon} alt="description " />
                     </figure>
 
                       <div className='grid items-center m-3'>
-                        <p className='text-lg text-white'>{description.title}</p>
-                        <p>{description.cartigory}</p>
+                        <p className='text-lg font-medium text-white'>{description.title}</p>
+                        <p >{description.cartegory}</p>
                       </div>
                 </div>
                 
 
-               <div className=' grid justify-center p-6'>
+             
 
-                <div className='h-20 text-base'>
+                <div className=' h-20 mx-4 md:mx-0  m-3 border-b border-[#FFFFFF1A] md:border-[#848484] text-base'>
                   <p>{description.description}</p>
                 
-                </div>
-
-                <hr />
+             
+            
 
                </div>
 
