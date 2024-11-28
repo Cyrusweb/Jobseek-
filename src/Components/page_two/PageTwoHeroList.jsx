@@ -22,14 +22,14 @@ const HeroList = () => {
 
 <div className="grid grid-cols-6 md:grid-cols-8 gap-2 text-center text-lg mb-10 md:mx-8 mx-3">
  
-  <p className="heroViewStyle rounded-lg p-2 col-span-3 md:col-span-1 md:ml-0 ml-10 ">View all</p>
-  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:mr-0 mr-10 ">Digital</p>
-  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:ml-0 ml-5">Engineering</p>
-  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:mr-0 mr-5">Management</p>
+  <p className="heroViewStyle rounded-lg p-2 col-span-3 md:col-span-1 md:ml-0 ml-8 ">View all</p>
+  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:mr-0 mr-8 ">Digital</p>
+  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:ml-0 ml-1">Engineering</p>
+  <p className="heroBorder rounded-lg p-2 col-span-3 md:col-span-1 md:mr-0 mr-1">Management</p>
   <p className="heroBorder rounded-lg p-2 col-span-2 md:col-span-1">Finance</p>
   <p className="heroBorder rounded-lg p-2 col-span-2 md:col-span-1">Marketing</p>
   <p className="heroBorder rounded-lg p-2 col-span-2 md:col-span-1">Design</p>
-  <p className="heroBorder rounded-lg p-2 col-span-6 md:col-span-1  mx-24 md:mx-0">Development</p>
+  <p className="heroBorder rounded-lg p-2 col-span-6 md:col-span-1  mx-16  md:mx-0">Development</p>
 </div>
 
 

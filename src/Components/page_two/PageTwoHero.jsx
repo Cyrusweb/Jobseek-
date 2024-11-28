@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='text-white'>
       <div className='rounded-lg md:mx-[3.4rem] p-3 md:m-auto m-[0.27rem]'>
          <PgaeTwoHeroHeader/>
-        <div className='h-[489.19px]'>
+        <div className='h-full'>
         <PageTwoHeroTopic/>
         
      
