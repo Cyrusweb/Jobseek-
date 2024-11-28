@@ -76,7 +76,7 @@ const PageTwoHerocard = () => {
           <div className='grid md:grid-cols-3 justify-center gap-8 '>
             { descriptions.map(description =>
 
-            <div key={description.id} className='border border-[#4A3A7680] mb-6  rounded-lg text-[#848484] mx-2 '>
+            <div key={description.id} className='border border-[#4A3A7680] mb-6  rounded-lg text-[#848484] md:mx-2 '>
               <div className='md:m-2'>
 
 
