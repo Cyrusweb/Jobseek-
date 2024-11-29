@@ -31,17 +31,6 @@ const HeroList = () => {
   <p className="heroBorder rounded-lg py-2 col-span-2 md:col-span-1">Design</p>
   <p className="heroBorder rounded-lg py-2 col-span-6 md:col-span-1  mx-16   md:mx-0">Development</p>
 </div>
-{/* <div className="grid md:grid-cols-8 grid-cols-1 md:gap-1 text-center md:text-xs lg:text-lg">
-  <p className="heroViewStyle rounded-lg py-2 ">View all</p>
-  <p className="heroBorder rounded-lg py-2 ">Digital</p>
-  <p className="heroBorder rounded-lg py-2 ">Engineering</p>
-  <p className="heroBorder rounded-lg py-2 ">Management</p>
-  <p className="heroBorder rounded-lg py-2 ">Finance</p>
-  <p className="heroBorder rounded-lg py-2  ">Marketing</p>
-  <p className="heroBorder rounded-lg py-2 ">Design</p>
-  <p className="heroBorder rounded-lg py-2 ">Development</p>
-</div>
- */}
 
     </div>
   )
