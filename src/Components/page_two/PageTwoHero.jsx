@@ -10,13 +10,9 @@ const Hero = () => {
   return (
     <div className='text-white'>
       <div className='rounded-lg md:mx-[3.4rem] p-3 md:m-auto m-[0.27rem]'>
-         <PgaeTwoHeroHeader/>
         <div className='h-full'>
+         <PgaeTwoHeroHeader/>
         <PageTwoHeroTopic/>
-        
-     
-
-   
         </div>
        <div>
       <div className='grid justify-center text-center'>

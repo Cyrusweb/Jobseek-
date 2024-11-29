@@ -76,7 +76,7 @@ const PageTwoHerocard = () => {
           <div className='grid md:grid-cols-3 justify-center gap-8 '>
             { descriptions.map(description =>
 
-            <div key={description.id} className='border border-[#4A3A7680] mb-6  rounded-lg text-[#848484] md:mx-2 '>
+            <div key={description.id} className='border border-[#4A3A7680] mb-6  rounded-lg text-[#848484]  lg:mx-2 '>
               <div className='md:m-2'>
 
 
@@ -85,7 +85,7 @@ const PageTwoHerocard = () => {
                       <img src={description.icon} alt="description " />
                     </figure>
 
-                      <div className='grid items-center m-3'>
+                      <div className='grid items-center mx-2 lg:m-3'>
                         <p className='text-lg font-medium text-white'>{description.title}</p>
                         <p >{description.cartegory}</p>
                       </div>
@@ -94,7 +94,7 @@ const PageTwoHerocard = () => {
 
              
 
-                <div className=' h-20 mx-4 md:mx-4  m-3 border-b border-[#FFFFFF1A] md:border-[#848484] text-base'>
+                <div className=' h-full  mx-4 md:mx-4 p-3 m-3 border-b border-[#FFFFFF1A] md:border-[#848484] text-base'>
                   <p>{description.description}</p>
                 
              
@@ -106,7 +106,7 @@ const PageTwoHerocard = () => {
 
 
 
-                <div className='grid grid-cols-[130px_1fr] justify-start mx-4'>
+                <div className='grid lg:grid-cols-[130px_1fr] md:grid-cols-none sm:grid-cols-[130px_1fr] justify-start mx-4 md:mx-2 lg:mx-4'>
                 <div className="flex items-center gap-2">
                       <figure>
                         <img src={`/assets/location.svg`} alt="Location" />
