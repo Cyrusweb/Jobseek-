@@ -20,7 +20,7 @@ const HeroList = () => {
       </div> */}
 
 
-<div className="grid grid-cols-6 md:grid-cols-8 gap-2 md:gap-1 lg:gap-2 text-center md:text-xs  lg:text-base mb-10 lg:mx-2 ">
+<div className="grid grid-cols-6 md:grid-cols-8 gap-2 md:gap-1 lg:gap-2 text-center md:text-xs  lg:text-base mb-10 lg:mx-5 ">
  
   <p className="heroViewStyle rounded-lg py-2 col-span-3 md:col-span-1 md:ml-0 ml-8 ">View all</p>
   <p className="heroBorder rounded-lg py-2 col-span-3 md:col-span-1 md:mr-0 mr-8 ">Digital</p>

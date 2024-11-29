@@ -106,7 +106,7 @@ const PageTwoHerocard = () => {
 
 
 
-                <div className='grid lg:grid-cols-[130px_1fr] md:grid-cols-none sm:grid-cols-[130px_1fr] justify-start mx-4 md:mx-2 lg:mx-4'>
+                <div className='grid grid-cols-[130px_1fr] md:grid-cols-none lg:grid-cols-[130px_1fr] justify-start mx-4 md:mx-2 lg:mx-4'>
                 <div className="flex items-center gap-2">
                       <figure>
                         <img src={`/assets/location.svg`} alt="Location" />
