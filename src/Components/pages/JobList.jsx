@@ -1,7 +1,3 @@
-import React from "react";
-// import location from "../../assets/location.svg";
-// import price from "../../assets/price.svg";
-// import remote from "../../assets/remote.svg";
 import ListLeft from ".././Json/ListLeft.json";
 
 function JobList() {
